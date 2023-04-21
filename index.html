@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MARIA CHOPINE</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Noto+Sans:wght@300&family=Noto+Serif+Display&display=swap" rel="stylesheet">
+        
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+                integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+                crossorigin="anonymous"></script>
+        
+        <script>
+            $(document).ready(function() {
+                $("#workslink").click(function() {
+                    $("#pagecontent").load("works.html");
+                });
+                $("#aboutlink").click(function() {
+                    $("pagecontent").load("about.html");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1 id="namehead">Maria Chopine</h1>
+        <div id="links">
+            <p id="workslink">works</p>
+            <p id="aboutlink">about</p>
+        </div>
+        <div id="pagecontent"></div>
+        <script src="index.js"></script>
+    </body>
+</html>

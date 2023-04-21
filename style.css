@@ -1,0 +1,28 @@
+#namehead {
+    width:100%;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:70px;
+    letter-spacing:15px;
+}
+
+#links {
+    margin-left:48%;
+    margin-top:-20px;
+}
+
+#workslink, #aboutlink {
+    padding:50px;
+    font-family: 'Noto Serif Display', serif;
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+
+#statement {
+    width:50%;
+    margin-left:25%;
+    margin-top:50px;
+    text-align:justify;
+    font-family: 'Noto Sans', sans-serif;
+}
